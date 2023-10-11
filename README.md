@@ -2,7 +2,7 @@
 
 Welcome to my Tribute Page!
 
-In this repository, you will find a web page dedicated to honoring Bobby Fischer, one of the one of the greatest chess players in history
+In this repository, you will find a web page dedicated to honoring Bobby Fischer, one of the greatest chess players in history
 
 ## 📕 About the Project
 
