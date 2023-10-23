@@ -1,90 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tribute Page</title>
-    <!-- Pay attention not to link the reset.css after the styles.css -->
+    <!-- Pay attention not to link the 'reset.css' after the 'styles.css' -->
     <link rel="stylesheet" href="reset.css">
+    <!-- Bootstrap should be linked after 'reset.css' and before 'styles.css' -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    
 </head>
+
 <body>
-    <main id="main">
-        <h1 id="title">Robert James "Bobby" Fischer</h1>
-        <h2 class="about">The chess legend who captivated the world</h2>
-        <figure id="img-div">
-            <img id="image"
-                src="https://ichef.bbci.co.uk/news/976/cpsprodpb/104EF/production/_109999766_spassky_fischer_alamy.jpg" 
-                alt="Match between Bobby Fischer and Boris Spassky">
-            <figcaption id="img-caption" class="about">
-                The depicted image represents the iconic “Match of the Century” in 1972, held in Reykjavik, Iceland. 
-                It features Soviet champion Boris Spassky (on the left) and American challenger Bobby Fischer (on the right) competing in the World Chess Championship. 
-                This event was particularly significant due to the context of the Cold War and the polarization between the two superpowers.
-            </figcaption>
+    <main class="m-5" id="main">
+        <h1 class="text-center" id="title">Robert James "Bobby" Fischer</h1>
+        <h2 class="text-center">The chess legend who captivated the world</h2>
+        <figure class="d-flex flex-column align-itens-center mx-5" id="img-div">
+            <img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/104EF/production/_109999766_spassky_fischer_alamy.jpg"
+                class="figure-img img-fluid rounded-0 border-0" alt="Match between Bobby Fischer and Boris Spassky"
+                id="image">
+            <figcaption class="text-center" id="img-caption">The depicted image represents the iconic “Match of the
+                Century” in 1972,
+                held in Reykjavik, Iceland.
+                It features Soviet champion Boris Spassky (on the left) and American challenger Bobby Fischer (on the
+                right) competing in the World Chess Championship.
+                This event was particularly significant due to the context of the Cold War and the polarization between
+                the two superpowers.</figcaption>
         </figure>
-        <article id="tribute-info">
-           <h3 class="about">Here's a time line of Bobby Fischer's life:</h3>
-    
+        <article id="tribute-info" class="time-line">
+            <h3 class="text-center">Here's a time line of Bobby Fischer's life:</h3>
+
             <ul>
-                <li>
+                <li class="my-3">
                     <time class="date">1943</time>
-                     - Born in Chicago, United States.
+                    - Born in Chicago, United States.
                 </li>
-                <li>
+                <li class="my-3">
                     <time class="date">1956</time>
-                     - He played the 'Match of the Century' in a Masters tournament, 
+                    - He played the 'Match of the Century' in a Masters tournament,
                     which he won with a 100% success rate, 13 victories in 13 games.
                 </li>
-                <li>
+                <li class="my-3">
                     <time class="date">1957</time>
-                     - He won the American championship at the age of 14, which was the first of eight.
+                    - He won the American championship at the age of 14, which was the first of eight.
                 </li>
-                <li>
+                <li class="my-3">
                     <time class="date">1959</time>
-                     - He had his first participation in the Candidates Tournament in Belgrade, 
+                    - He had his first participation in the Candidates Tournament in Belgrade,
                     but the spot to challenge the world champion went to Mikhail Tal.
                 </li>
-                <li>
+                <li class="my-3">
                     <time class="date">1962</time>
-                     - In his second attempt at the Candidates Tournament in Curaçao, Bobby Fischer accused Soviet players 
-                    of colluding to manipulate results. 
+                    - In his second attempt at the Candidates Tournament in Curaçao, Bobby Fischer accused Soviet
+                    players
+                    of colluding to manipulate results.
                     Though unproven, this led to a format change, but Fischer ultimately withdrew from the tournament.
                 </li>
-                <li>
+                <li class="my-3">
                     <time class="date">1971</time>
-                     - He reversed his decision, defeated Mark Taimanov, Bent Larsen, Tigran Petrosian and 
+                    - He reversed his decision, defeated Mark Taimanov, Bent Larsen, Tigran Petrosian and
                     earned the right to challenge the world champion, Boris Spassky
                 </li>
-                <li>
+                <li class="my-3">
                     <time class="date">1971</time>
-                     - Fischer won 7 games in the match against Spassky's 3 and became the world chess champion            </li>
-                <li>
+                    - Fischer won 7 games in the match against Spassky's 3 and became the world chess champion
+                </li>
+                <li class="my-3">
                     <time class="date">1974</time>
-                     - Bobby Fischer announced that he would renounce his title            </li>
-                <li>
+                    - Bobby Fischer announced that he would renounce his title
+                </li>
+                <li class="my-3">
                     <time class="date">1992</time>
-                     - After years in reclusion, Fischer had a rematch in Yugoslavia against Spassky, 
-                    which took place during international sanctions against the Milosevic government. 
+                    - After years in reclusion, Fischer had a rematch in Yugoslavia against Spassky,
+                    which took place during international sanctions against the Milosevic government.
                     Consequently, the United States threatened to arrest him upon his return
                 </li>
-                <li>
+                <li class="my-3">
                     <time class="date">2004</time>
-                     - He was detained in Japan due to his expired American passport. 
-                    The United States sought his deportation, but Fischer resolved the standoff by gaining Icelandic citizenship
+                    - He was detained in Japan due to his expired American passport.
+                    The United States sought his deportation, but Fischer resolved the standoff by gaining Icelandic
+                    citizenship
                 </li>
-                <li>
+                <li class="my-3">
                     <time class="date">2008</time>
-                     - Robert James Fischer passed away in Iceland at the age of 64.
+                    - Robert James Fischer passed away in Iceland at the age of 64.
                 </li>
             </ul>
         </article>
-    <footer>
-        <p>If you have time, you should read more about this incredible chess player on his 
-            <a id="tribute-link"
-            href="https://en.wikipedia.org/wiki/Bobby_Fischer"
-            target="_blank">Wikipedia Entry.</a></p>
-    </footer>
+        <footer>
+            <p class="text-center">If you have time, you should read more about this incredible chess player on his
+                <a id="tribute-link" href="https://en.wikipedia.org/wiki/Bobby_Fischer" target="_blank">Wikipedia
+                    Entry.</a>
+            </p>
+        </footer>
     </main>
 </body>
+
 </html>
